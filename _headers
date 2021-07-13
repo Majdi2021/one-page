@@ -3,4 +3,7 @@
   # headers for that path:
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
 X-Content-Type-Options: nosniff
+Permissions-Policy: geolocation=(self "https://example.com"), microphone=()
+Referrer-Policy: no-referrer
