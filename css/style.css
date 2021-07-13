@@ -1,0 +1,192 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 200%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+#header {
+  margin-bottom: 1em;
+}
+#header > .page-container {
+  padding: 0.5em;
+  padding-bottom: 0;
+}
+#header a {
+  text-decoration: none;
+}
+#site-logo {
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  text-transform: uppercase;
+}
+#site-logo .capital-logo {
+  font-size: 25px;
+  color: #00c7fc;
+}
+h1,
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+a,
+a:link {
+  color: black;
+}
+a:hover {
+  color: #00c7fc;
+}
+#main-menu {
+  float: right;
+}
+
+p {
+  color: black;
+}
+
+#main-menu li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 2em;
+  vertical-align: top;
+  padding: 1px;
+  text-transform: uppercase;
+}
+ul.menu {
+  padding: 0;
+}
+
+#banner-img {
+  background-image: url(../images/banner-image.jpg); /* source https://www.freepik.com/ */
+  float: left;
+  width: 100%;
+  padding-bottom: 400px;
+  padding-top: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banner-img h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+}
+
+#aboutme-section {
+  padding: 50px 0;
+}
+
+.section-title {
+  border-bottom: 4px solid #00c7fc;
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+#skills-section {
+  padding: 120px 0;
+}
+
+.grey-bg {
+  background-color: #d9dcdc;
+}
+
+#skills-section .col-3 {
+  width: 30%;
+  background-color: white;
+  display: inline-block;
+  padding: 30px 18px 65px 10px;
+  margin-right: 4px;
+}
+
+#skills-section .icon-img {
+  width: 60px;
+  display: block;
+  margin: auto;
+}
+
+#skills-section .box-title {
+  text-transform: uppercase;
+  font-weight: 300;
+  border-top: 4px solid #00c7fc;
+  display: inline-block;
+  color: black;
+  font-size: 22px;
+}
+#skills-section p {
+  color: black;
+}
+#myproject-section {
+  padding: 80px 0;
+}
+
+#myproject-section img {
+  display: inline-block;
+  width: 300px;
+  margin: 50px;
+  vertical-align: top;
+}
+
+#contact {
+  background-color: #6e6c6d;
+  padding: 80px 0;
+}
+
+.white-border {
+  border: 1px solid white;
+}
+
+.contact-title {
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.form {
+  text-align: left;
+  padding: 0 30px 50px;
+}
+label {
+  color: white;
+  display: block;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#send {
+  background-color: transparent;
+  border: 2px solid #00c7fc;
+  color: #00c7fc;
+  text-transform: uppercase;
+  padding: 5px 15px;
+}
+
+footer {
+  background-color: #00c7fc;
+  color: white;
+  font-weight: 300;
+  padding: 20px 0;
+  font-size: 16px;
+}
